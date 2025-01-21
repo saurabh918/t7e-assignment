@@ -3,7 +3,7 @@ import './dashboard.css';
 import Header from '../../components/header/Header';
 import PieChart from '../../components/piechart/Piechart';
 import Sidebar from '../../components/sidebar/Sidebar';
-import Card from '../../components/Card/Card';
+import Card from '../../components/card/Card';
 import MapComponent from '../../components/map/Map';
 import { MdOutlineDashboard, MdRedeem } from "react-icons/md";
 import { FiTool } from 'react-icons/fi';
