@@ -6,7 +6,7 @@ import {
   Legend,
   Tooltip,
 } from 'recharts';
-import './pieChart.css';
+import './piechart.css';
 
 const data = [
   { name: 'CAR', value: 120 },
