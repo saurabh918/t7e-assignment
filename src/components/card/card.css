@@ -1,0 +1,63 @@
+.card {
+  flex-basis: 20%;
+  background-color: #fff;
+  position: relative;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.total-days {
+  font-size: 12px;
+  color: #6a6e75;
+}
+
+.card h3 {
+  font-weight: 500;
+  color: #6a6e75;
+  font-size: 16px;
+  display: inline;
+}
+
+.card:hover {
+  background-color: #c8e1f9;
+}
+
+.avg-value {
+  display: block;
+  color: #57ae65;
+}
+
+.hover-box {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 85%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  opacity: 0;
+  border-radius: 2px;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.hover-box p {
+  opacity: 0.3;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.card:hover .hover-box {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hover-box p {
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,53 @@
+.dashboard {
+  display: flex;
+  background-color: #f1f5f7;
+}
+
+.dashboard-content {
+  flex: 1;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+}
+
+.cards .card h3 {
+  line-height: 4px;
+}
+
+.cards .card > p {
+  border-bottom: 1px solid rgba(128,128,128,0.2);
+  padding-bottom: 20%;
+  line-height: 0;
+}
+
+.charts {
+  display: flex;
+  gap: 16px;
+  padding: 0 20px;
+}
+
+.container-title {
+  text-align: center;
+  color: #6a6e75;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+  .dashboard, .cards, .charts {
+    flex-direction: column;
+  }
+
+  .container-title {
+    font-size: 14px;
+  }
+
+  .cards .card p {
+    padding-bottom: 15%;
+  }
+}

@@ -1,0 +1,37 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px;
+  position: absolute;
+  top: 1%;
+  left: 4%;
+  background-color: #ffff00;
+}
+
+.logo-image {
+  height: 50px;
+  width: auto;
+  border-radius: 4px;
+}
+
+.logo-text h4 {
+  font-size: 16px;
+  margin: 0;
+  color: #333;
+  text-align: center;
+}
+
+.logo-text p {
+  font-size: 7px;
+  margin: 0;
+  color: #fff;
+  background-color: #000;
+}
+
+@media only screen and (max-width: 991px) {
+  .logo-container {
+    right: 2%;
+    left: auto;
+  }
+}
